@@ -65,7 +65,7 @@
 <meta property="og:site_name" content="喇塌湖">
 <meta property="og:description" content="一维双原子链考虑一维双原子链由2个质量大小不同的原子组成晶胞，质量分别是 $m_1$ 和 $m_2$ ，晶胞间距为 $a$ 。考虑原子在平衡位置做微扰运动，假设共有 $N$ 个晶胞，其中第 $n$ 个晶胞内，两个原子的微扰位矢分别用 $u_n$ 和 $v_n$ 表示，则紧邻的晶胞内原子的位置可以表示成 $u_{n-1}$, $v_{n-1}$, $u_n$, $v_n$,$u_{n+1}$, $v">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-21T15:11:05.780Z">
+<meta property="og:updated_time" content="2019-09-21T15:14:08.896Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一维双原子链的色散关系求解">
 <meta name="twitter:description" content="一维双原子链考虑一维双原子链由2个质量大小不同的原子组成晶胞，质量分别是 $m_1$ 和 $m_2$ ，晶胞间距为 $a$ 。考虑原子在平衡位置做微扰运动，假设共有 $N$ 个晶胞，其中第 $n$ 个晶胞内，两个原子的微扰位矢分别用 $u_n$ 和 $v_n$ 表示，则紧邻的晶胞内原子的位置可以表示成 $u_{n-1}$, $v_{n-1}$, $u_n$, $v_n$,$u_{n+1}$, $v">
@@ -228,7 +228,7 @@
                 
               
 
-              <time title="创建时间：2019-09-21 22:58:28 / 修改时间：23:11:05" itemprop="dateCreated datePublished" datetime="2019-09-21T22:58:28+08:00">2019-09-21</time>
+              <time title="创建时间：2019-09-21 22:58:28 / 修改时间：23:14:08" itemprop="dateCreated datePublished" datetime="2019-09-21T22:58:28+08:00">2019-09-21</time>
             </span>
           
             
@@ -255,7 +255,7 @@
 <p>$$<br>  \begin{aligned}<br>  m_2  \ddot{v}_n &amp;= \beta \left( A e^{i(naq + aq -\omega t)} +A e^{i(naq -\omega t)} -2Be^{i(naq-\omega t)}\right) \<br>  &amp;= \beta [A(1+e^{iaq}) - 2B)e^{i(naq-\omega t)}<br>  \end{aligned}<br>$$</p>
 <p>从而得出：<br>$$<br>m_1(i\omega)^2 A =\beta [B(1+e^{-iaq}) - 2A]<br>$$<br>$$<br>m_2 (i\omega)^2 B = \beta [A(1+e^{iaq}) - 2B]<br>$$</p>
 <p>$$<br>  \begin{cases}<br>    (2\beta - m_1\omega^2)A - \beta(1 + e^{-iaq})B = 0 \<br>    \beta (1+e^{iaq})A - (2\beta -m_2 \omega^2)B = 0<br>  \end{cases}<br>$$</p>
-<p>%% 其中 $e^{\frac{iaq}{2}}+e^{\frac{-iaq}{2}}$ 可化简为 $2\cos{\frac{aq}{2}}$</p>
+<p>其中 $e^{\frac{iaq}{2}}+e^{\frac{-iaq}{2}}$ 可化简为 $2\cos{\frac{aq}{2}}$</p>
 <p>该方程时关于微扰常数 $A$，$B$ 的线性齐次方程，其有解的充要条件是系数矩阵为零。<br>$$<br>\left| \begin{array}{cc}<br>2\beta - m_1\omega^2 &amp; -\beta(1+e^{-iaq}) \<br>\beta (1+e^{iaq}) &amp; m_2 \omega^2 -2 \beta<br>\end{array} \right| = 0<br>$$</p>
 <p>$$<br>  \begin{aligned}<br>    &amp;(2\beta - m_1 \omega^2)(2\beta - m_2 \omega^2) - \beta^2 (1+e^{iaq})(1+e^{-iaq}) \<br>    =&amp; 4\beta^2 - 2\beta(m_1 +m_2)\omega^2 + m_1 m_2 \omega^4 -\beta(2 + e^{iaq} + e^{-iaq})\<br>    =&amp; m_1 m_2 \omega^4 - 2\beta(m_1 +m_2)\omega^2 + \beta^2[2 -(e^{iaq} + e^{-iaq})] \<br>    =&amp; m_1 m_2 \omega^4 - 2\beta(m_1 +m_2)\omega^2 + \beta^2[2 -2 \cos(aq)] \<br>    =&amp; 0<br>  \end{aligned}<br>$$</p>
 <p>这是关于 $\omega$ 的 4 次方程，先化简方程，求出 $\omega^2$ 与 $q$ 的关系：<br>$$<br>\begin{aligned}<br>\omega_{\pm}^{2}<br>&amp; = \frac{2\beta(m_1 + m_2) \pm 2\beta \sqrt{(m_1 + m_2)^2 - 2m_1 m_2(1-\cos{aq})}}{2m_1 m_2} \<br>&amp; = \frac{\beta(m_1 +m_2)}{m_1 m_2}\left[ 1 \pm \left( 1 + \frac{2m_1 m_2(\cos{aq}-1)}{(m_1 +m_2)^2} \right)^{\frac{1}{2}} \right]<br>\end{aligned}<br>$$<br>将求解的结果带入到方程组, 可以解出两个原子的振幅比值<br>$$<br>\left( \frac{B}{A} \right)<em>{\pm} = \frac{\beta (1+e^{-iaq})}{2\beta - m_1 \omega^2</em>{\pm}}<br>= \frac{\beta (1+\cos{aq})}{2\beta - m_1 \omega^2_{\pm}}<br>$$</p>
