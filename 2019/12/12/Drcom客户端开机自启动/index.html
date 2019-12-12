@@ -57,19 +57,19 @@
   };
 </script>
 
-  <meta name="description" content="Hexo 的桌面客户端，由雾非雾的情思设计开发，并在Github 开源分享，可以直观的管理Hexo博客。 由于Github的部分端口被墙，所以发行版直接下载几乎不可能。但是可以通过 offcloud 这样的云端下载平台进行中转，然后再下载。不过offcloud仅仅提供3个试用链接，如果需要长期试用，只有充值会员才行。国内也有类似的云端下载平台。">
-<meta name="keywords" content="ubuntu, linux, windows">
+  <meta name="description" content="学校实验室使用Drcom来进行网络管理，每次登录都需要手动连接网络。由于有些时候需要远程登录，为防止停电等事故发生而导致的电脑没有连网，无法远程，所以需要设置Drcom自启动。然而，Drcom的程序需要使用管理员权限才能运行，每次打开都会，弹出权限授予界面，需要手动点击。所以还需要将其设置为UAC白名单。">
+<meta name="keywords" content="计算机">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo-Client">
-<meta property="og:url" content="https://kailog.gitee.io/2019/10/03/Hexo-Client/index.html">
+<meta property="og:title" content="Drcom客户端开机自启动">
+<meta property="og:url" content="https://kailog.gitee.io/2019/12/12/Drcom客户端开机自启动/index.html">
 <meta property="og:site_name" content="KaiLog">
-<meta property="og:description" content="Hexo 的桌面客户端，由雾非雾的情思设计开发，并在Github 开源分享，可以直观的管理Hexo博客。 由于Github的部分端口被墙，所以发行版直接下载几乎不可能。但是可以通过 offcloud 这样的云端下载平台进行中转，然后再下载。不过offcloud仅仅提供3个试用链接，如果需要长期试用，只有充值会员才行。国内也有类似的云端下载平台。">
+<meta property="og:description" content="学校实验室使用Drcom来进行网络管理，每次登录都需要手动连接网络。由于有些时候需要远程登录，为防止停电等事故发生而导致的电脑没有连网，无法远程，所以需要设置Drcom自启动。然而，Drcom的程序需要使用管理员权限才能运行，每次打开都会，弹出权限授予界面，需要手动点击。所以还需要将其设置为UAC白名单。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-10T02:03:01.687Z">
+<meta property="og:updated_time" content="2019-12-12T07:38:59.058Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo-Client">
-<meta name="twitter:description" content="Hexo 的桌面客户端，由雾非雾的情思设计开发，并在Github 开源分享，可以直观的管理Hexo博客。 由于Github的部分端口被墙，所以发行版直接下载几乎不可能。但是可以通过 offcloud 这样的云端下载平台进行中转，然后再下载。不过offcloud仅仅提供3个试用链接，如果需要长期试用，只有充值会员才行。国内也有类似的云端下载平台。">
-  <link rel="canonical" href="https://kailog.gitee.io/2019/10/03/Hexo-Client/">
+<meta name="twitter:title" content="Drcom客户端开机自启动">
+<meta name="twitter:description" content="学校实验室使用Drcom来进行网络管理，每次登录都需要手动连接网络。由于有些时候需要远程登录，为防止停电等事故发生而导致的电脑没有连网，无法远程，所以需要设置Drcom自启动。然而，Drcom的程序需要使用管理员权限才能运行，每次打开都会，弹出权限授予界面，需要手动点击。所以还需要将其设置为UAC白名单。">
+  <link rel="canonical" href="https://kailog.gitee.io/2019/12/12/Drcom客户端开机自启动/">
 
 
 <script id="page-configurations">
@@ -83,7 +83,7 @@
   };
 </script>
 
-  <title>Hexo-Client | KaiLog</title>
+  <title>Drcom客户端开机自启动 | KaiLog</title>
   
 
 
@@ -200,7 +200,7 @@
   
   
   <div class="post-block post">
-    <link itemprop="mainEntityOfPage" href="https://kailog.gitee.io/2019/10/03/Hexo-Client/">
+    <link itemprop="mainEntityOfPage" href="https://kailog.gitee.io/2019/12/12/Drcom客户端开机自启动/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Kail">
@@ -212,7 +212,7 @@
       <meta itemprop="name" content="KaiLog">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Hexo-Client
+        <h1 class="post-title" itemprop="name headline">Drcom客户端开机自启动
 
           
         </h1>
@@ -228,33 +228,12 @@
                 
               
 
-              <time title="创建时间：2019-10-03 18:03:05" itemprop="dateCreated datePublished" datetime="2019-10-03T18:03:05+08:00">2019-10-03</time>
+              <time title="创建时间：2019-12-12 11:04:47 / 修改时间：15:38:59" itemprop="dateCreated datePublished" datetime="2019-12-12T11:04:47+08:00">2019-12-12</time>
             </span>
           
             
 
             
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-10-10 10:03:01" itemprop="dateModified" datetime="2019-10-10T10:03:01+08:00">2019-10-10</time>
-              </span>
-            
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -268,8 +247,20 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Hexo 的桌面客户端，由<a href="https://www.mspring.org/" target="_blank" rel="noopener">雾非雾的情思</a>设计开发，并在<a href="https://github.com/gaoyoubo/hexo-client" target="_blank" rel="noopener">Github</a> 开源分享，可以直观的管理Hexo博客。</p>
-<p>由于Github的部分端口被墙，所以发行版直接下载几乎不可能。但是可以通过 <a href="https://offcloud.com" target="_blank" rel="noopener">offcloud</a> 这样的云端下载平台进行中转，然后再下载。不过offcloud仅仅提供3个试用链接，如果需要长期试用，只有充值会员才行。国内也有类似的云端下载平台。</p>
+        <p>学校实验室使用Drcom来进行网络管理，每次登录都需要手动连接网络。由于有些时候需要远程登录，为防止停电等事故发生而导致的电脑没有连网，无法远程，所以需要设置Drcom自启动。然而，Drcom的程序需要使用管理员权限才能运行，每次打开都会，弹出权限授予界面，需要手动点击。所以还需要将其设置为UAC白名单。</p><a id="more"></a>
+<p>UAC(User Account Control用户账户控制)是微软为提高系统安全从VISTA开始引入的新技术，微软为方便设置，推出过Microsoft Application Compatibility Toolkit来进行管理。但是该软件已经不再独立发布。我们可以通过下载Windows ADK for windows 10，其中包含若干组件，安装时只需要选择第一个组件，即我们需要的UAC管理工具。</p>
+<p>具体的过程如下：</p>
+<ol>
+<li>下载<a href="https://docs.microsoft.com/zh-cn/windows-hardware/get-started/adk-install" target="_blank" rel="noopener">Windows ADK for Windows 10</a>, 或者直接下载适用于1903版本的<a href="https://go.microsoft.com/fwlink/?linkid=2086042" target="_blank" rel="noopener">ADK</a>. 安装，其中的第一个组件。</li>
+<li>设置白名单，打开Compatibility Administrator(32-bit)，一般在左侧目录会有一个自动新建的 New Database(1)[Unititled], 如果没有，点 New 按钮新建一个 Database。邮件点击Database，Create New &gt; Application Fix…<ol>
+<li>输入相关信息 Name of the program to be fixed: DrMain ; Name of the vendor for this program: Drcom； Program file location：C:\Drcom\DrUpdateClient\DrMain.exe.</li>
+<li>点击下一步，在出现Additional Compatibility modes 选项时，下拉到 RunAsInvoker，将其勾选，点击下一步，直到完成。</li>
+<li>然后点击save，保存数据，此时也需要输入数据库名称和保存路径，可根据自己的需要进行填写。</li>
+<li>点击菜单 File -&gt; Install，选择我们刚才建立的数据库，进行安装，提示 “The database ‘DrMain’ was successfully installed”，退出程序。</li>
+</ol>
+</li>
+<li>设置任务计划，右键点击桌面上的 “此电脑”，选择任务计划程序，右键创建基本任务，输入名称，选择触发器为“当前用户登录时”，下一步，选择“启动程序”，下一步，输入DrMain.exe的路径，点击“完成”。</li>
+</ol>
 
     </div>
 
@@ -285,7 +276,7 @@
           
           <div class="post-tags">
             
-              <a href="/tags/ubuntu-linux-windows/" rel="tag"># ubuntu, linux, windows</a>
+              <a href="/tags/计算机/" rel="tag"># 计算机</a>
             
           </div>
         
@@ -295,8 +286,8 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2019/09/29/solutions-of-problem-1-4-1-5/" rel="next" title="Solutions of Problem 1.4 & 1.5">
-                  <i class="fa fa-chevron-left"></i> Solutions of Problem 1.4 & 1.5
+                <a href="/2019/11/04/米物无线键鼠/" rel="next" title="米物无线键鼠">
+                  <i class="fa fa-chevron-left"></i> 米物无线键鼠
                 </a>
               
             </div>
@@ -304,10 +295,6 @@
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-              
-                <a href="/2019/10/10/如何修改WPS强行锁定关联PDF/" rel="prev" title="如何修改WPS强行锁定关联PDF">
-                  如何修改WPS强行锁定关联PDF <i class="fa fa-chevron-right"></i>
-                </a>
               
             </div>
           </div>
